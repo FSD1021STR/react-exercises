@@ -1,11 +1,11 @@
-function sayName(x) {
-  alert("Hello " + x);
-}
-
 function SayButton({ name }) {
+  function sayName() {
+    alert("Hello " + name);
+  }
+
   return (
     <div>
-      <button onClick={() => sayName(name)}>Hello {name}</button>
+      <button onClick={sayName}>Hello {name}</button>
     </div>
   );
 }
