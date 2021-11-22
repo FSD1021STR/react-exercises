@@ -1,9 +1,9 @@
-import DevCard from "./exercises/devCard";
+import GridCSS from "./exercises/e04gridCSS/gridCSS";
 
 function App() {
   return (
     <div>
-      <DevCard />
+      <GridCSS />
     </div>
   );
 }
