@@ -1,9 +1,9 @@
-import { Exercise6 } from "./exercises/exercise-6";
+import DevCard from "./exercises/devCard";
 
 function App() {
   return (
     <div>
-      <Exercise6 />
+      <DevCard />
     </div>
   );
 }

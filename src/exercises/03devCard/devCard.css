@@ -1,0 +1,25 @@
+.devCard {
+    max-width:  400px;
+    border-radius:20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    padding-top:120px;
+    margin:20px;
+}
+
+h1 {
+    text-align:center;
+}
+h2 {
+    text-align:center;
+}
+
+@media screen and (min-width:768px) {
+    .flexbox {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        gap:20px;
+    }
+}
