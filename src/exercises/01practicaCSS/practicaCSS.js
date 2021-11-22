@@ -1,5 +1,5 @@
 import React from 'react';
-import practicaCSS from './practicaCSS.css';
+import './practicaCSS.css';
 import avatar from './avatar.jpg'
 
 function PracticaCSS() {
@@ -14,7 +14,7 @@ function PracticaCSS() {
             </div>
             <div className="header">
                 <div className="avatar">
-                    <img src={avatar} />
+                    <img src={avatar} alt=""/>
                     <h1>Pepe Gómez</h1>
                 </div>
                 <p></p>
