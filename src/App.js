@@ -1,9 +1,9 @@
-import { Exercise6 } from "./exercises/exercise-6";
+import GridCSS from "./exercises/e04GRIDExercises/gridCSS";
 
 function App() {
   return (
     <div>
-      <Exercise6 />
+      <GridCSS />
     </div>
   );
 }

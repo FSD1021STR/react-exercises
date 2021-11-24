@@ -1,0 +1,22 @@
+.section {
+  border: 10px solid red;
+  text-align: center;
+  margin: 10px;
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .flexbox-tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .flexbox-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
