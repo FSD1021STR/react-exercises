@@ -1,9 +1,17 @@
-import { Exercise6 } from "./exercises/exercise-6";
+import React from 'react';
+import GridItem from './exercises/css/cssGrid/gridCSS'
+
+
+
+
+
 
 function App() {
   return (
     <div>
-      <Exercise6 />
+      
+      <GridItem />
+
     </div>
   );
 }

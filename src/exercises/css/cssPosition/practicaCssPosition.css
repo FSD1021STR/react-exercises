@@ -1,0 +1,42 @@
+.header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 300px;
+     
+}
+
+.nav {
+
+background-color: yellowgreen;
+border: 2px solid green;
+height: 150px;
+width: 600px;
+
+
+}
+
+.main {
+    background-color: green;
+    height: 300px;
+    margin: 50px 200px 150px 250px;
+    border: 1px solid black;
+    padding: 100px 200px 150px 150px;
+    
+}
+
+
+.logo {
+    background-color: aqua;
+    margin: 15px 50px 50px 30px;
+    width: 200px;
+    height: 150px;
+}
+    
+
+
