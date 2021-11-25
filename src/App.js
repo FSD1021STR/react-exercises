@@ -1,9 +1,18 @@
-import GridCSS from "./exercises/e04gridCSS/gridCSS";
+import DevCard from "./exercises/GRID_Ryañez/card";
+/*import CSS from "./exercises/GRID_Ryañez/css_App.css";*/
 
 function App() {
   return (
-    <div>
-      <GridCSS />
+    <div class="container">
+      <DevCard />
+      <DevCard />
+      <DevCard />
+      <DevCard />
+      <DevCard />
+      <DevCard />
+      <DevCard />
+      <DevCard />
+      <DevCard />
     </div>
   );
 }
