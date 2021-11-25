@@ -1,9 +1,11 @@
-import GridCSS from "./exercises/e04gridCSS/gridCSS";
 
+
+import MyGridCSS from "./exercises/MyGridCSS/myGridCSS";
+ 
 function App() {
   return (
     <div>
-      <GridCSS />
+      <MyGridCSS/>
     </div>
   );
 }

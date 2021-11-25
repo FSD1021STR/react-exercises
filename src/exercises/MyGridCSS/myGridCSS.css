@@ -1,0 +1,60 @@
+.gridCSS {
+  background-image: url(http://hoteleuropa2018.webs3.mirai.es/files/1024px-Estadio_Wanda_Metropolitano_2018.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+}
+
+.gridItem {
+  background-color: burlywood;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  margin: 20px;
+  box-shadow: 10px, 10px, 10px, black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.iconImage {
+  width: 200px;
+  height: 200px;
+}
+
+.description {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .gridCSS {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gridCSS {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

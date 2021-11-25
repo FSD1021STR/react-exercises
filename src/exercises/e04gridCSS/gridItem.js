@@ -10,4 +10,4 @@ function GridItem() {
     )
 }
 
-export default GridItem();
+export default GridItem;
