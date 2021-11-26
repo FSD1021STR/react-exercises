@@ -6,10 +6,10 @@ h1 {
 body {
   background-color: lightgray;
 }
-
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 .card {
@@ -54,6 +54,7 @@ body {
 
 @media (min-width: 694px) {
   .container {
+    max-width: 400px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
