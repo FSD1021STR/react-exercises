@@ -7,9 +7,16 @@ export default function PracticasCssPosition() {
         
             <div>
                 <div className='header'>
-                    Header
+                    
+                    
                     <div className='logo'>Logo</div>
-                    <div className='nav'>Menu</div>
+                    <div className='nav'>
+                    <div className='itemMenu'>Item Menu</div>
+                    <div className='itemMenu'>Item Menu</div>
+                    <div className='itemMenu'>Item Menu</div>
+                    <div className='itemMenu'>Item Menu</div>
+                    <div className='itemMenu'>Item Menu</div>
+                    </div>
                 </div>
 
                 <div className='main'>Main</div>
